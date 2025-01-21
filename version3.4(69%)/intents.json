@@ -1,0 +1,223 @@
+{
+  "intents": [
+    {
+      "tag": "admissions",
+      "patterns": [
+        "How can I apply for admission?",
+        "What are the admission requirements?",
+        "When is the application deadline?",
+        "Can I apply online?"
+      ],
+      "keywords": ["admission", "apply", "requirements", "deadline"],
+      "responses": [
+        "You can apply for admission through our online portal. Visit the Admissions section on our website for more details.",
+        "Admission requirements vary by program. Please check the program-specific details in the Admissions section.",
+        "The application deadline depends on the program. Please refer to the academic calendar on the website.",
+        "Yes, you can apply online by visiting the Admissions section on our website."
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "What courses are offered?",
+        "Do you have engineering programs?",
+        "Can I see a list of courses?",
+        "What are the popular programs?"
+      ],
+      "keywords": ["courses", "programs", "engineering"],
+      "responses": [
+        "We offer a wide range of programs, including engineering, business, arts, and sciences. Visit the Programs section for a detailed list.",
+        "Yes, we have engineering programs. You can choose from various specializations such as Computer Science, Mechanical, and Civil.",
+        "You can find a complete list of courses in the Courses section of our website.",
+        "Some of our popular programs include Computer Science, Business Administration, and Data Science."
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "What is the tuition fee?",
+        "How much does the MBA program cost?",
+        "Are there any scholarships available?",
+        "What is the fee structure?"
+      ],
+      "keywords": ["tuition", "fees", "scholarships"],
+      "responses": [
+        "The tuition fees vary by program. Please visit the Fees and Scholarships section for detailed information.",
+        "The MBA program fee is available on the website under the Fees section. Scholarships may also be available.",
+        "Yes, we offer scholarships based on merit and need. Please visit the Scholarships section for more details.",
+        "The fee structure can be found in the Fees section of our website."
+      ]
+    },
+     {
+        "tag": "events",
+        "patterns": [
+            "What events are happening on campus?",
+            "Do you have any upcoming seminars?",
+            "When is the next cultural fest?",
+            "Tell me about college events."
+        ],
+        "keywords": ["events", "seminars", "cultural fest","fest","campus festives"],
+        "responses": [
+            "You can find the latest events and seminars in the Events section of our website.",
+            "Our cultural fest is scheduled for next month. Stay tuned for updates in the Events section.",
+            "We host various events throughout the year, including workshops, fests, and competitions. Check the Events section for more information."
+        ]
+    },
+    {
+        "tag": "facilities",
+        "patterns": [
+            "Do you have a library?",
+            "What facilities are available on campus?",
+            "Is there a sports complex?",
+            "Tell me about the campus facilities."
+        ],
+        "keywords": ["facilities", "campus facilities", "sports complex"],
+        "responses": [
+            "Yes, we have a state-of-the-art library, labs, sports complex, and more. Visit the Facilities section for details.",
+            "Our campus is equipped with modern facilities, including a library, sports complex, and hostel accommodations.",
+            "Yes, we have a sports complex with facilities for basketball, cricket, football, and more.",
+            "You can explore all the campus facilities in the Facilities section of our website."
+        ]
+    },
+    {
+        "tag": "contact",
+        "patterns": [
+            "How can I contact the college?",
+            "What is the college email address?",
+            "Is there a phone number for inquiries?",
+            "How can I reach the admissions office?"
+        ],
+        "keywords": ["contact", "email", "inquiries","admission office"],
+        "responses": [
+            "You can contact us via email at info@college.edu or call us at +123-456-7890.",
+            "The admissions office can be reached at admissions@college.edu or +123-456-7891.",
+            "Visit the Contact Us page on our website for detailed contact information."
+        ]
+    },
+    {
+      "tag": "hostel",
+      "patterns": [
+          "Do you have hostel facilities?",
+          "What are the hostel charges?",
+          "Is there separate accommodation for boys and girls?",
+          "Tell me about the hostel facilities."
+      ],
+      "keywords": ["hostel", "hostel facilities", "accomodation"],
+      "responses": [
+          "Yes, we provide hostel facilities for both boys and girls with separate accommodations.",
+          "The hostel charges vary depending on the type of room. Please visit the Hostel section on our website for details.",
+          "Our hostels are equipped with modern amenities, including Wi-Fi, mess, and recreational facilities. Visit the Hostel section for more information."
+      ]
+  },
+  {
+      "tag": "placement",
+      "patterns": [
+          "What are the placement statistics?",
+          "Do you have a placement cell?",
+          "Which companies visit for campus placements?",
+          "Tell me about the placement process."
+      ],
+      "keywords": ["placements", "placement cell", "campus placement","placement process"],
+      "responses": [
+          "Our placement cell helps students secure internships and jobs with top companies. Visit the Placements section for more details.",
+          "Companies like Google, Amazon, TCS, and Infosys regularly visit our campus for placements.",
+          "You can find the latest placement statistics in the Placements section of our website.",
+          "The placement process involves pre-placement talks, aptitude tests, interviews, and final selections. Check the Placements section for more details."
+      ]
+  },
+  {
+      "tag": "academic_calendar",
+      "patterns": [
+          "What is the academic calendar?",
+          "When does the semester start?",
+          "What are the holidays this year?",
+          "Tell me about the academic schedule."
+      ],
+      "keywords": ["academic calender", "semester start", "schedule","holidays"],
+      "responses": [
+          "You can find the academic calendar, including semester start dates and holidays, in the Academic Calendar section on our website.",
+          "The semester usually starts in August and January. Check the Academic Calendar for exact dates.",
+          "A list of holidays and important dates is available in the Academic Calendar section."
+      ]
+  },
+  {
+      "tag": "scholarships",
+      "patterns": [
+          "What scholarships are available?",
+          "Do you offer financial aid?",
+          "How can I apply for scholarships?",
+          "Tell me about merit-based scholarships."
+      ],
+      "keywords": ["financial aids", "merit-based", "scholarships"],
+      "responses": [
+          "We offer scholarships based on academic performance and financial need. Visit the Scholarships section for details.",
+          "Yes, financial aid is available for eligible students. Please check the Scholarships section for the application process.",
+          "You can apply for scholarships through the Scholarships section of our website. Make sure to meet the eligibility criteria.",
+          "Merit-based scholarships are awarded to top-performing students. Visit the Scholarships section for more information."
+      ]
+  },
+  {
+      "tag": "transportation",
+      "patterns": [
+          "Do you provide transportation facilities?",
+          "Is there a bus service for students?",
+          "What are the transport charges?",
+          "Tell me about campus transportation."
+      ],
+      "keywords": ["transportation", "bus service", "transport charges","campus transportation"],
+      "responses": [
+          "Yes, we provide transportation facilities with buses covering major routes.",
+          "The transport charges vary by distance. Visit the Transportation section on our website for details.",
+          "Our campus transportation is reliable and ensures student safety. Check the Transportation section for more information."
+      ]
+  },
+  {
+      "tag": "internships",
+      "patterns": [
+          "Are internships mandatory?",
+          "Do you help students find internships?",
+          "What internship opportunities are available?",
+          "Tell me about the internship programs."
+      ],
+      "keywords": ["internships", "internship opportunities", "internship programs"],
+      "responses": [
+          "Yes, internships are an integral part of our curriculum for most programs.",
+          "Our placement cell assists students in finding internships with top organizations.",
+          "Internship opportunities are available in various domains, including technology, business, and research. Check the Internships section for details.",
+          "Visit the Internships section on our website to learn more about ongoing internship programs."
+      ]
+  },
+  {
+      "tag": "clubs",
+      "patterns": [
+          "What student clubs are there?",
+          "Do you have technical clubs?",
+          "Are there cultural activities?",
+          "Tell me about student organizations."
+      ],
+      "keywords": ["student clubs", "technical clubs", "activities","cultural activities","student organization"],
+      "responses": [
+          "We have a variety of student clubs, including technical, cultural, and sports clubs. Visit the Clubs section for more details.",
+          "Yes, we have technical clubs like the Coding Club, Robotics Club, and AI Club.",
+          "Cultural activities include music, dance, drama, and more. Join the Cultural Club for exciting events.",
+          "Student organizations offer great opportunities to connect, learn, and grow. Check the Clubs section for more information."
+      ]
+  },
+  {
+      "tag": "library",
+      "patterns": [
+          "What are the library timings?",
+          "Do you have an online library?",
+          "Can I borrow books from the library?",
+          "Tell me about the library facilities."
+      ],
+      "keywords": ["library", "library timings", "online library","library facilities"],
+      "responses": [
+          "The library is open from 8 AM to 8 PM on weekdays and 9 AM to 5 PM on weekends.",
+          "Yes, we have an online library portal where you can access e-books and journals.",
+          "Students can borrow books for a specific duration. Check the Library section for the borrowing policy.",
+          "Our library is well-equipped with books, e-resources, and study spaces. Visit the Library section for more details."
+      ]
+  }
+  ]
+}
